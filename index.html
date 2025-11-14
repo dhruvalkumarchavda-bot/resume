@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruval Chavda | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0f1a5b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="background"></div>
+
+  <aside class="sidebar glass">
+    <h2>Menu</h2>
+    <button onclick="showSection('home')">🏠 Home</button>
+    <button onclick="showSection('about')">👨‍💻 About</button>
+    <button onclick="showSection('education')">🎓 Education</button>
+    <button onclick="showSection('skills')">💡 Skills</button>
+    <button onclick="showSection('hobbies')">🎯 Hobbies</button>
+    <button onclick="showSection('contact')">📞 Contact</button>
+  </aside>
+
+  <main class="main-content">
+    <section id="home" class="section active glass">
+      <div class="profile">
+        <div class="glow-ring">
+          <img src="p1.jpeg" alt="Dhruval" class="profile-img" />
+        </div>
+        <h1>Dhruvalkumar Chavda</h1>
+        <p class="typing-text">I’m a <span id="type"></span></p>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:dhruval@example.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p>Hello! I’m <b>Dhruvalkumar Chavda</b>, a B.Sc IT (3rd year) student and Web Development Intern.  
+      I love building elegant, responsive and creative websites using modern technologies.</p>
+    </section>
+
+    <section id="about" class="section glass">
+      <h2>About Me</h2>
+      <p>I’m an enthusiastic web developer who loves to mix design and technology.  
+      My goal is to create digital experiences that are both visually appealing and technically efficient.</p>
+    </section>
+
+    <section id="education" class="section glass">
+      <h2>Education</h2>
+
+      <div class="edu-item fade-in">
+        <h3>10th - D. N. High School, Anand</h3>
+        <img src="SCHOOL1.jpeg" alt="D. N. High School" class="edu-photo" />
+        <p>Completed my 10th from D. N. High School, Anand with a strong foundation in Science and Mathematics.</p>
+        <a href="https://maps.google.com?q=D+N+High+School,+Anand,+Gujarat,+India" target="_blank" class="map-btn">
+          📍 View D. N. High School on Map
+        </a>
+      </div>
+
+      <div class="edu-item fade-in">
+        <h3>12th & B.Sc IT - M. B. Patel Science College, Anand</h3>
+        <img src="COLLAGE1.jpeg" alt="M. B. Patel College" class="edu-photo" />
+        <p>Currently pursuing B.Sc. in Information Technology (3rd Year) from M. B. Patel College, Anand.</p>
+        <a href="https://maps.app.goo.gl/9ct6JdwczcPgXi2i7" target="_blank" class="map-btn">
+          📍 View M. B. Patel College on Map
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="section glass">
+      <h2>My Skills</h2>
+      <ul class="skills">
+        <li>🌐 HTML</li>
+        <li>🎨 CSS</li>
+        <li>⚙️ JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="hobbies" class="section glass">
+      <h2>Hobbies</h2>
+      <p>⚡ Web Designing | 🏏 Cricket | 🎵 Music | 📷 Photography</p>
+    </section>
+
+    <section id="contact" class="section glass">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:dhruvalkumarchavda@gmail.com">dhruvalkumarchavda@gmail.com</a></p>
+      <p>Phone: +91 90238 85040</p>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
